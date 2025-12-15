@@ -4,7 +4,7 @@ from file_output_handler import FileHandler
 
 scrapper = Scrapper()
 file  = FileHandler("projects.csv")
-keyword_list = ["web scraping", "python", "data analysis"]
+keyword_list = ["web scraping", "python", "automação"]
 
 for keyword in keyword_list:
     print(f"APP_MSG: Starting scraping for keyword: {keyword}")
